@@ -1,0 +1,52 @@
+div {
+    display: block;
+}
+.navbar {
+    height: 87px;
+    width: 100%;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.navbar_icon, .main {
+    margin-inline: 38px;
+}
+body{
+    font-family: Verdana;
+}
+.btn{
+    width: 220px;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+table {
+    width: 100%;
+    height: 755px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    padding-left: 38px;
+}
+
+td {
+    padding-left: 42px;
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+tr:first-child {
+    border-bottom: 1px solid black;
+}
+
+tr:last-child {
+    background: #000;
+    color: white;
+}
